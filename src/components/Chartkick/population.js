@@ -1,0 +1,15 @@
+export const population = [
+  ["Brasil", 210147125],
+  ["Colombia", 50372424],
+  ["Argentina", 44938712],
+  ["Perú", 32950920],
+  ["Venezuela", 28067000],
+  ["Chile", 19107216],
+  ["Ecuador", 17300000],
+  ["Bolivia", 11383094],
+  ["Paraguay", 7152703],
+  ["Uruguay", 3529014],
+  ["Guyana", 761000],
+  ["Surinam", 524000],
+  ["Guayana Francesa", 187000],
+];

@@ -1,0 +1,36 @@
+.editor {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #595959;
+  padding: 24px;
+  width: 80%;
+  max-width: 900px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-container > button {
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.code {
+  font-family: monospace;
+}
+.highlight {
+  background-color: yellow;
+}
