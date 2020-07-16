@@ -1,9 +1,9 @@
 import React from 'react';
+import { Route, Switch, Link } from 'react-router-dom';
 import CSSReset from './components/CSSReset';
 import { Layout, Header, Sidebar, Main, Footer } from './components/layout';
 import Logo from './components/Logo';
 import Menu from './components/Menu';
-import { Route, Switch, Link } from 'react-router-dom';
 import Formik from './components/Formik/Formik';
 import Chartkick from './components/Chartkick/Chartkick';
 import Draftjs from './components/Draftjs/Draftjs';
