@@ -16,7 +16,7 @@ const StyledNavLink = styled(NavLink)`
   }
 `;
 
-function MenuItem({ item: { title = "Text", dest = "/" }, onSelect }) {
+function MenuItem({ item: { title = "Text", dest = "/" } }) {
   return (
     <StyledNavLink
       to={dest}
@@ -25,7 +25,6 @@ function MenuItem({ item: { title = "Text", dest = "/" }, onSelect }) {
         backgroundColor: "#E6F7FF",
         borderRight: "3px solid #1890FF",
       }}
-      onClick={() => onSelect(title)}
     >
       {title}
     </StyledNavLink>

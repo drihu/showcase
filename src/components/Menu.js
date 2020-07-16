@@ -5,7 +5,7 @@ import styled from "@emotion/styled";
 import MenuDropDown from "./MenuDropDown";
 import MenuItem from "./MenuItem";
 
-function Menu({ title, items, onSelect }) {
+function Menu({ title, items }) {
   const [active, setActive] = useState(false);
 
   const ItemsContainer = styled.ul`
@@ -21,7 +21,7 @@ function Menu({ title, items, onSelect }) {
       <MenuDropDown title={title} active={active} onClick={onMenuSelect} />
       <ItemsContainer>
         {items.map((item, index) => (
-          <MenuItem key={index} item={item} onSelect={onSelect} />
+          <MenuItem key={index} item={item} />
         ))}
       </ItemsContainer>
     </div>
